@@ -31,8 +31,7 @@ def limpiar_reportes_antiguos():
                 archivos_eliminados += 1
 
     print(
-        f"--- MANTENIMIENTO FINALIZADO."
-        f"Se eliminaron {archivos_eliminados} archivos. ---")
+        f"--- MANTENIMIENTO FINALIZADO.Se eliminaron {archivos_eliminados} archivos. ---")
     sys.exit(0)
 
 
