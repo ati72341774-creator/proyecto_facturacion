@@ -31,8 +31,7 @@ def ejecutar_auditoria():
         archivo.write("=====================================================\n")
 
     print(
-        f"Auditoria finalizada con exito."
-        f"Archivo generado: {nombre_archivo}"
+        f"Auditoria finalizada con exito.Archivo generado: {nombre_archivo}"
     )
     sys.exit(0)
 
